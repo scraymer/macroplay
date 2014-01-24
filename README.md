@@ -2,15 +2,12 @@ macroplay
 =========
 
 AUTHOR: SAMUEL W. CRAYMER
-
 DATE: APRIL 6, 2013
 
 DESCRIPTION: My term project for one of my undergraduate courses at Carleton University, BUSI 3401 - Application Development for Online Environments.
 
 URL 1: https://sam.craymer.com/macroplay/
-
 URL 2: https://googledrive.com/host/0B_XofsFIj7LuNFNwVFdzS1dFa2c/
-
 =========
 
 CHANGE LOG:
