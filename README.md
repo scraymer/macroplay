@@ -9,6 +9,8 @@ DESCRIPTION: My term project for one of my undergraduate courses at Carleton Uni
 URL 1: https://sam.craymer.com/macroplay/
 URL 2: https://googledrive.com/host/0B_XofsFIj7LuNFNwVFdzS1dFa2c/
 
+=========
+
 CHANGE LOG:
 
  -  (NEW) added an animation to the banner when a new user comes to the site. if you 
