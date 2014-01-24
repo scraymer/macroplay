@@ -1,0 +1,105 @@
+.control {
+  clear: both;
+  width: 210px;
+  height: 35px;
+  margin: 0px auto 20px 252px;
+}
+
+.control input[type="submit"]:first-child {
+  float: left;
+  width: 90px;
+}
+
+.control input[type="reset"]:last-child {
+  float: right;
+  width: 90px;
+}
+
+article {
+  clear: both;
+}
+
+article .header {
+  clear: both;
+}
+
+article .content {
+	clear: both;
+	margin: 15px auto 0px auto;
+	width: inherit;
+}
+
+article .content .section {
+  clear: both;
+  width: 675px;
+  margin: 0px auto;
+}
+
+article .content .new-categorie {
+  margin-top: 40px !important;
+}
+
+article .content .label {
+  float: left;
+  text-align: right;
+  width: 200px;
+  margin-top: 10px;
+  padding-top: 7px;
+}
+
+article .content .genderLabel, article .content .countryLabel {
+  padding-top: 0px;
+}
+
+article .content .label label {
+	margin: 10px 0px 0px 5px;
+	padding: 5px 0px 5px 0px;
+	font-size: 16px;
+	font-weight: normal;
+	color: rgb(102, 102, 102);
+}
+
+
+article .content .field {
+  float: right;
+  width: 450px;
+  margin-top: 10px;
+}
+
+article .content .field input[type="text"], article .content .field input[type="password"], 
+  article .content .field input[type="email"], article .content .field input[type="tel"], 
+  article .content .field input[type="date"], article .content .field textarea {
+  width: 400px;
+}
+
+article .content .field input[type="radio"] {
+  margin-right: 10px;
+}
+
+article .content .field .radio {
+  width: 80px;
+}
+
+article .content .field input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+article .content .field span {
+  width: 120px;
+  display: inline-block;
+  float: left;
+}
+
+article .content .field span:nth-child(3n+1) {
+  clear: left;
+}
+
+article .content .field .dateField {
+  color: rgb(128, 128, 128);
+  padding-left: 10px;
+  width: 395px !important;
+}
+
+article .footer {
+  clear: both;
+}

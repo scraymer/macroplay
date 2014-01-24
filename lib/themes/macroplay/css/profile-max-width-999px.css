@@ -1,0 +1,122 @@
+.control {
+  clear: both;
+  width: 210px;
+  height: 35px;
+  margin: 0px auto 20px auto;
+  padding-right: 20px;
+}
+
+.control input[type="submit"]:first-child {
+  float: left;
+  width: 90px;
+}
+
+.control input[type="reset"]:last-child {
+  float: right;
+  width: 90px;
+}
+
+article {
+  clear: both;
+}
+
+article .header {
+  clear: both;
+}
+
+article .content {
+	clear: both;
+	margin: 15px auto 0px auto;
+	width: 100%;
+}
+
+article .content .section {
+  clear: both;
+  margin: 0px auto;
+}
+
+article .content .new-categorie {
+  margin-top: 40px !important;
+}
+
+article .content .label {
+  float: left;
+  text-align: right;
+  width: 150px;
+  margin-top: 0px;
+  padding-top: 8px;
+}
+
+article .content .genderLabel, article .content .countryLabel {
+  padding-top: 2px;
+}
+
+article .content .label label {
+	margin: 10px 0px 0px 5px;
+	padding: 0px 0px 5px 0px;
+	font-size: 16px;
+	font-weight: normal;
+	color: rgb(102, 102, 102);
+}
+
+
+article .content .field {
+  width: inherit;
+  margin-left: 170px;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
+article .content .field input[type="text"], article .content .field input[type="password"], 
+  article .content .field input[type="email"], article .content .field input[type="tel"], 
+  article .content .field input[type="date"], article .content .field textarea {
+  width: 100%;/**/
+}
+
+article .content .field input[type="radio"] {
+  margin-right: 10px;
+}
+
+article .content .field .radio {
+  width: 80px;
+}
+
+article .content .field input[type="checkbox"] {
+  padding-left: 10px;
+}
+
+article .content .field span {
+  width: 120px;
+  display: inline-block;
+  float: left;
+}
+
+@media (min-width: 660px) {
+  article .content .field span:nth-child(3n+4) {
+    clear: left;
+  }
+}
+
+@media (max-width: 659px) and (min-width: 532px) {
+  article .content .field span:nth-child(2n+3) {
+    clear: left;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 531px) {
+  article .content .field span:nth-child(1n+2) {
+    clear: left;
+    margin-bottom: 5px;
+  }
+}
+
+article .content .field .dateField {
+  color: rgb(128, 128, 128);
+  padding-left: 10px;
+  width: 100% !important;
+}
+
+article .footer {
+  clear: both;
+}

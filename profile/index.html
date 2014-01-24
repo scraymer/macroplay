@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title>MacroPlay | Profile</title>
+	
+	<!-- METADATA | START -->
+	<meta charset="utf-8" />
+	<meta name="author" content="Samuel W. Craymer" />
+	<meta name="description" content="The profile page for MacroPlay" /> 
+	<meta name="keywords" content="MacroPlay" />
+	<meta name="viewport" content="width=device-width" />
+  <!-- METADATA | END -->
+  
+  <!-- LINKS | START -->
+  <link rel="stylesheet" type="text/css" media="(min-width: 1000px)" href="../lib/themes/macroplay/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="(max-width: 999px)" href="../lib/themes/macroplay/css/main-max-width-999px.css" />
+  <link rel="stylesheet" type="text/css" media="(min-width: 1000px)" href="../lib/themes/macroplay/css/profile.css" />
+  <link rel="stylesheet" type="text/css" media="(max-width: 999px)" href="../lib/themes/macroplay/css/profile-max-width-999px.css" />
+  <link rel="shortcut icon" type="image/ico" href="../lib/themes/macroplay/img/favicon.ico" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../lib/themes/macroplay/img/apple-touch-icon-144-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../lib/themes/macroplay/img/apple-touch-icon-114-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../lib/themes/macroplay/img/apple-touch-icon-72-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" href="../lib/themes/macroplay/img/apple-touch-icon-57-precomposed.png" />
+	<!-- LINKS | END -->
+	
+	<!-- SCRIPTS | START -->
+	<script src="../lib/themes/macroplay/js/functions.js">
+	</script>
+	<script src="../lib/themes/macroplay/js/profile.js">
+	</script>
+	<!-- SCRIPTS | END -->
+	
+</head>
+<body>
+
+  <header id="banner" title="Click Me!">
+    <div id="canvas-bg">
+      <canvas id="canvas" width="728px" height="90px">
+        <br />
+      </canvas>
+    </div>
+  </header>
+  
+  <nav>
+    <ul>
+      <li onclick="location.href='../home/'">MacroPlay</li>
+      <li onclick="location.href='../home/'">Home</li>
+      <li onclick="location.href='../video/'">Video</li>
+      <li onclick="location.href='../profile/'" class="selected">Profile</li>
+      <li onclick="location.href='../admin/?callback=profile'">Admin</li>
+    </ul>
+  </nav>
+  
+  <section>
+    <h1>Profile</h1>
+    <div class="control">
+      <input type="submit" value="Save" name="save" id="save" form="profile" />
+      <input type="reset" value="Reset" name="reset" id="reset" form="profile" />
+    </div>
+    <article>
+      <div class="header"></div>
+      <div class="content">
+        <form name="profile" id="profile" action="javascript:saveProfile_click();" 
+          onreset="resetProfile_click(event)" >
+          <input type="hidden" name="id" value="" />
+          <div class="section"></div>
+          <div class="section">
+            <div class="label">
+              <label for="displayname">Display Name</label>
+            </div>
+            <div class="field">
+              <input type="text" name="displayname" id="displayname" placeholder="John Smith" required autofocus />
+            </div>
+          </div>
+          <div class="section"></div>
+          <div class="section new-categorie">
+            <div class="label">
+              <label for="username">Username</label>
+            </div>
+            <div class="field">
+              <input type="text" name="username" id="username" placeholder="jsmith" maxlength="10" pattern="[A-Za-z]{3,10}" required />
+            </div>
+          </div>
+          <div class="section"></div>
+          <div class="section">
+            <div class="label">
+              <label for="password">Password</label>
+            </div>
+            <div class="field">
+              <input type="password" name="password" id="password" placeholder="password" pattern=".{5,}" required />
+            </div>
+          </div>
+          <div class="section"></div>
+          <div class="section new-categorie">
+            <div class="label">
+              <label for="email">Email</label>
+            </div>
+            <div class="field">
+              <input type="email" name="email" id="email" placeholder="john.smith@domain.net" />
+            </div>
+          </div>
+          <div class="section"></div>
+          <div class="section">
+            <div class="label">
+              <label for="telephone">Telephone Number</label>
+            </div>
+            <div class="field">
+              <input type="tel" name="telephone" id="telephone" placeholder="613-555-1234" 
+                title="Please enter a valid North American phone number." 
+                pattern="^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$" />
+            </div>
+          </div>
+          <div class="section"></div>
+          <div class="section new-categorie">
+            <div class="label genderLabel">
+              <label for="birthDate">Gender</label>
+            </div>
+            <div class="field">
+              <span class="radio"><input type="radio" name="gender" id="gender-0" value="0" checked />Male</span>
+              <span class="radio"><input type="radio" name="gender" id="gender-1" value="1" />Female</span>
+            </div>
+          </div>
+          <div class="section"></div>
+          <div class="section">
+            <div class="label">
+              <label for="birthdate">Birth Date</label>
+            </div>
+            <div class="field">
+              <input type="date" name="birthdate" id="birthdate" class="dateField" placeholder="mm/dd/yyyy" />
+            </div>
+          </div>
+          <div class="section"></div>
+          <div class="section new-categorie">
+            <div class="label">
+              <label for="quote">Quote(s)</label>
+            </div>
+            <div class="field">
+              <textarea name="quote" id="quote" placeholder="MacroPlay, it's great!"></textarea>
+            </div>
+          </div>
+          <div class="section"></div>
+          <div class="section">
+            <div class="label">
+              <label for="interest">Interest(s)</label>
+            </div>
+            <div class="field">
+              <span><input type="checkbox" name="interest" id="interest_action" value="action" />Action</span>
+              <span><input type="checkbox" name="interest" id="interest_adventure" value="adventure" />Adventure</span>
+              <span><input type="checkbox" name="interest" id="interest_role_playing" value=role_playing" />Role Playing</span>
+              <span><input type="checkbox" name="interest" id="interest_simulation" value="simulation" />Simulation</span>
+              <span><input type="checkbox" name="interest" id="interest_sports" value="sports" />Sports</span>
+              <span><input type="checkbox" name="interest" id="interest_strategy" value="strategy" />Strategy</span>
+            </div>
+          </div>
+          <div class="section"></div>
+          <div class="section new-categorie">
+            <div class="label countryLabel">
+              <label for="country">Country</label>
+            </div>
+            <div class="field">
+              <select name="country" id="country">
+                <option value="0">Canada</option>
+                <option value="1">United States</option>
+                <option value="2">Rest of World</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="footer"></div>
+    </article>
+  </section>
+
+  <aside>
+    <div id="themes">
+      <form action="">
+        <select name="themes" id="themeOptions" onchange="changeTheme(this.value)">
+          <option value="default">MacroPlay</option>
+          <option value="001">The Last of Us</option>
+          <option value="002">Grand Theft Auto V</option>
+        </select>
+      </form>
+    </div>
+    <div id="login">
+      <h3 id="form-login-label">Login</h3>
+      <form name="form-login" id="form-login" action="javascript:login_click();">
+        <input type="text" name="username" id="form-login-username" placeholder="username" 
+          maxlength="10" pattern="[A-Za-z]{3,10}" required />
+        <input type="password" name="password" id="form-login-password" 
+          placeholder="password" pattern=".{5,}" required />
+        <input type="submit" value="Login" name="login" id="form-login-submit" form="form-login" />
+      </form>
+      <form name="form-logout" id="form-logout" action="javascript:logout_click();">
+        <input type="submit" value="Logout" name="logout" id="form-logout-submit" form="form-logout" />
+      </form>
+    </div>
+    <div id="aboutUs">
+      <h3>About Us</h3>
+      <p>
+        We are a popular video game retail store within the ottawa region. Don't hesitate 
+        to give us a call if you have any questions about us or the products we sell.
+      </p>
+      <address>
+        Phone: <a href="tel:16135551234">1-613-555-1234</a><br />
+        Email: <a href="mailto:info@macroplay.net">info@macroplay.com</a>
+        <br /><br />
+        123 Street Drive, Ottawa, Ontario
+      </address>
+      <br />
+      <button id="locStore-btn" class="aside-button">Find Store</button>
+    </div>
+    <div id="events">
+      <h3>Events</h3>
+      <p>
+        02/2013 - 75% Off Sale
+        04/2013 - Last Of Us Promo
+        11/2013 - Grand Theft Auto 5 Promo
+      </p>
+    </div>
+  </aside>
+  
+  <footer id="footer">
+    <p>
+      Developed by Samuel W. Craymer &copy; 2013 All Rights Reserved
+    </p>
+  </footer>
+  
+  <div id="msgBox" class="msgBox-bg" onclick="this.style.display='none';">
+		<div class="msgBox-fg container-shadow container-border-round" onclick="event.stopPropagation();">
+			<div class="msgBox-title">
+				<h1>Message Box</h1>
+			</div>
+			<div class="msgBox-body">
+				Message box content body.
+			</div>
+			<div class="msgBox-action">
+				
+			</div>
+		</div>
+	</div>
+  
+</body>
+</html>

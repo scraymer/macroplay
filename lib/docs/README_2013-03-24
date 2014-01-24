@@ -1,0 +1,31 @@
+AUTHOR: SAMUEL W. CRAYMER
+DATE: MARCH 24, 2013
+
+URL 1: https://googledrive.com/host/0B_XofsFIj7LuWDVER2R2aE5uVlE/
+URL 2: https://sam.craymer.com/macroplay/
+
+CHANGE LOG:
+
+ -  (NEW) user theme selection new is stored under the local storage and is reapplied on page 
+    reload.
+    
+ -  (NEW) created a webpage titled, 'Profile', that is used to create and modify local 
+    users stored inside the indexedDB 'profile' object from the 'macroplay' database.
+    
+ -  (NEW) created a webpage title, 'Admin', that is used to view and delete users that 
+    are stored inside the indexedDB 'profile' object from the 'macroplay' database.
+    (Restricted to the 'admin' user only)
+    
+ -  (NEW) added a login section on everypage located in the aside bar.
+ 
+ -  (NEW) the default theme, 'macroplay', now displays a banner. 
+ 
+ -  (NEW) the theme, 'Grand Theft Auto V', has a new banner.
+ 
+ -  (FIX) changed video locations to 'sam@craymer.com' public dropbox location since 
+    previous locations turned out to be unreliable. The new location will be slower but 
+    reliable.
+    
+ -  (FIX) fixed the video player progress bar's width to fit nicely in place.
+ 
+ -  (FIX) fixed the video player play button where in some occasions it wouldn't play
