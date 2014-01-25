@@ -1,17 +1,30 @@
-macroplay
-=========
+#MacroPlay
 
-AUTHOR: SAMUEL W. CRAYMER
-DATE: APRIL 6, 2013
+**Author:** _Samuel W. Craymer_  
+**Date:** _April 6, 2013_
 
-DESCRIPTION: My term project for one of my undergraduate courses at Carleton University, BUSI 3401 - Application Development for Online Environments.
 
-URL 1: https://sam.craymer.com/macroplay/
-URL 2: https://googledrive.com/host/0B_XofsFIj7LuNFNwVFdzS1dFa2c/
+##Description
 
-=========
+A term project for one of my undergraduate courses at Carleton 
+University, _BUSI 3401 Application Development for Online Environments_.  
 
-CHANGE LOG:
+The purpose of the term project was to design and develop a website for a fictitious 
+company called _MacroPlay_ that would utilize all the new HTML5 features using the 
+best practices that were learned throughout the course.
+
+
+##Where to View
+
+__URL 1:__ *https://sam.craymer.com/macroplay/*  
+__URL 2:__ *https://googledrive.com/host/0B_XofsFIj7LuNFNwVFdzS1dFa2c/*
+
+**Note:** To cover the course material in the limited amount of time, this website is designed for use with Google Chrome only. It will still work with other modern browsers since it was designed with HTML5 best practices in mind. However, since the course was designed around Google Chrome's advanced features like 2D and 3D modeling as well as local data storage, some feature will not work in other browsers like Apple's Safari or Mozilla Firefox. 
+
+
+##Change Log
+
+### Version 3.0:
 
  -  (NEW) added an animation to the banner when a new user comes to the site. if you 
     click the banner, it will reanimate. (NO BUTTON WAS ADDED FOR THE REANIMATION AS 
@@ -34,7 +47,7 @@ CHANGE LOG:
     the volume bar.
 
 
-PREVIOUS CHANGE LOG:
+### Version 2.0:
 
  -  (NEW) user theme selection new is stored under the local storage and is reapplied on 
     page reload.
