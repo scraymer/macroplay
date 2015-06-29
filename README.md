@@ -16,7 +16,7 @@ best practices that were learned throughout the course.
 
 ##Where to View
 
-__URL 1:__ *https://scraymer.github.io/macroplay/*
+__URL 1:__ *https://scraymer.github.io/macroplay/*  
 __URL 2:__ *https://sam.craymer.com/macroplay/*  
 __URL 3:__ *https://googledrive.com/host/0B_XofsFIj7LuNFNwVFdzS1dFa2c/*
 
