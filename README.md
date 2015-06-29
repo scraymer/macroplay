@@ -16,8 +16,9 @@ best practices that were learned throughout the course.
 
 ##Where to View
 
-__URL 1:__ *https://sam.craymer.com/macroplay/*  
-__URL 2:__ *https://googledrive.com/host/0B_XofsFIj7LuNFNwVFdzS1dFa2c/*
+__URL 1:__ *https://scraymer.github.io/macroplay/*
+__URL 2:__ *https://sam.craymer.com/macroplay/*  
+__URL 3:__ *https://googledrive.com/host/0B_XofsFIj7LuNFNwVFdzS1dFa2c/*
 
 **Note:** To cover the course material in the limited amount of time, this website is designed for use with Google Chrome only. It will still work with other modern browsers since it was designed with HTML5 best practices in mind. However, since the course was designed around Google Chrome's advanced features like 2D and 3D modeling as well as local data storage, some feature will not work in other browsers like Apple's Safari or Mozilla Firefox. 
 
